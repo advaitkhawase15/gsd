@@ -1,0 +1,11 @@
+Main logo colors:
+	Light golden: #fff6d9
+	Golden: #eab95b
+
+Globe's colors:
+	Light grey: #505050
+	Dark grey: #2c2c2c
+
+Recommended BACKGROUND colors:
+	Dark Grey: #161616
+	Light Golden(use as website's bg color): #fff6d9
