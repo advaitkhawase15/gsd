@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #f9faf9;
+  }
+  
+  .navbar {
+    background-color: white;
+    height: 64px;
+  
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+  
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+  
+  /* Navbar */
+  
+  .navbar__item {
+    position: relative;
+    padding: 5px 5px;
+    
+    margin-right: 35px;
+    cursor: pointer;
+  
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .navbar__item:hover {
+     background-color: #eee;
+  }
+  
+  /* Drop down */
+  .navbar__item .navbar__dropdown {
+    position: absolute;
+    background-color: white;
+    top: calc(100% + 5px);
+    left: 0px;
+    border-radius: 8px;
+  
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  
+    /* Animated properties */
+    opacity: 0;
+    transform: scale(0.3);
+    transform-origin: top left;
+    transition: transform 0.4s, opacity 0.2s;
+  }
+  
+  .navbar__dropdown ul {
+    list-style: none;
+    padding: 8px 0px;
+  }
+  
+  .navbar__dropdown li {
+    padding: 8px 30px;
+  }
+  
+  /* ANIMATION */
+  .navbar__item:hover .navbar__dropdown {
+    opacity: 1;
+    transform: scale(1.0);
+  }
+  #nav_gsd_logo{
+      width:100px;
+  }
