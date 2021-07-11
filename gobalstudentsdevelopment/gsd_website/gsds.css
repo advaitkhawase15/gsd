@@ -155,7 +155,36 @@ a{
 }
 
 .sec_one_ad_two .desktop_version {
-	width: 75%;
+	width:75%;
+	overflow: hidden;
+	
+}
+.sec_one_ad_two{
+	background-image: url("ceo.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#ceo_info{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: transparent;
+}
+#ceo_info:hover{
+	color: black;
+}
+
+.sec_one_ad_two:hover{
+	background-image: none;
+	background-color: blueviolet;
+	transition: 1s ease-in-out;
 }
 
 .sec_one_ad_two .mobile_version{
@@ -448,6 +477,8 @@ a{
 		justify-content: space-around;
 	}
 	.sec_one_ad_two {
+		width: 300px;
+		height: 200px;
 		display: flex;
     	align-items: center;
     	justify-content: center;
