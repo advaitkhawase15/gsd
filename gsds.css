@@ -224,6 +224,15 @@ b{
 	text-align: center;
 }
 
+.aimandvision{
+	font-family: 'Metrophobic', sans-serif;
+	text-align:left;
+}
+
+.font_andv{
+	font-family: 'Dancing Script', cursive;
+}
+
 .vision {
 	/* align-self: flex-start; */
 	width: 40%;
