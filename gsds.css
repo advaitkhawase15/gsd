@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -171,6 +171,7 @@ b{
 	height: 50%;
 	width: 100%;
 	display: flex;
+	/* flex-direction: column; */
 	justify-content: center;
 	align-items: center;
 }
@@ -179,6 +180,7 @@ b{
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	align-items: center;
 	color: transparent;
 }
@@ -188,7 +190,7 @@ b{
 
 .sec_one_ad_two:hover{
 	background-image: none;
-	background-color: blueviolet;
+	background-color: #f6f4d4;
 	transition: 1s ease-in-out;
 }
 
